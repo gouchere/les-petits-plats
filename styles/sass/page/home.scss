@@ -1,0 +1,47 @@
+header{
+    width: 100%;
+    margin-top: 30px;
+    .page-header{
+       width: 80%;
+       margin: auto; 
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       img{          
+           width: 50px;
+           height: 50px;
+       }
+       h1{
+           margin-top: 0px;
+           margin-bottom: 10px;
+           color: #D04F4F;
+       }
+    }
+}
+.nav{
+    width: 80%;
+    margin: auto; 
+    &__search{
+        width: 100%;
+        background: #dadada;
+        position: relative;
+        padding: 5px 5px 5px 15px;
+        border-radius: 5px;
+        input{
+            height: 25px;
+            width: 98%;
+            background: inherit;
+            border: none;
+            font-size: 0.9em;
+            &:focus{
+                outline: none;
+            }
+        }
+        i{
+            position: absolute;
+            right: 12px;
+            top: 10px;
+            font-size: 20px;
+        }
+    }
+}

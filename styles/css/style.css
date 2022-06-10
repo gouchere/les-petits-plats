@@ -1,0 +1,106 @@
+header {
+  width: 100%;
+  margin-top: 30px;
+}
+header .page-header {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .page-header img {
+  width: 50px;
+  height: 50px;
+}
+header .page-header h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #D04F4F;
+}
+
+.nav {
+  width: 80%;
+  margin: auto;
+}
+.nav__search {
+  width: 100%;
+  background: #dadada;
+  position: relative;
+  padding: 5px 5px 5px 15px;
+  border-radius: 5px;
+}
+.nav__search input {
+  height: 25px;
+  width: 98%;
+  background: inherit;
+  border: none;
+  font-size: 0.9em;
+}
+.nav__search input:focus {
+  outline: none;
+}
+.nav__search i {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  font-size: 20px;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.filter {
+  width: 80%;
+  margin: auto;
+}
+.filter__tags {
+  width: 100%;
+  margin: auto;
+}
+.filter__tags ul {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  margin-top: 10px;
+}
+.filter__tags ul li {
+  list-style-type: none;
+  padding: 5px 15px 5px 15px;
+  background: #3282F7;
+  margin-right: 10px;
+  border-radius: 5px;
+  color: #E7E7E7;
+  font-size: 0.7em;
+}
+.filter__tags ul li i {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.filter__dropdown {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+.filter__dropdown .dropdown {
+  width: 80px;
+  border-radius: 3px;
+  padding: 10px 15px 10px 15px;
+  color: #E7E7E7;
+  font-size: 0.7em;
+  margin-right: 10px;
+}
+.filter__dropdown .dropdown--ingredients {
+  background: #3282F7;
+}
+.filter__dropdown .dropdown--appareils {
+  background: #68D9A4;
+}
+.filter__dropdown .dropdown--ustensiles {
+  background: #C7BEBE;
+}
+
+/*# sourceMappingURL=style.css.map */

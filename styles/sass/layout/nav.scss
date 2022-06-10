@@ -1,0 +1,52 @@
+@use '../utils/variable' as v;
+
+.filter{
+    width: 80%;
+    margin: auto;
+    &__tags{        
+        width: 100%;
+        margin: auto;
+        ul{
+            padding: 0px;
+            margin: 0px;
+            display: flex;
+            margin-top: 10px;
+            li{
+                list-style-type: none;
+                padding: 5px 15px 5px 15px;
+                background: v.$color-blue;
+                margin-right: 10px;
+                border-radius: 5px;
+                color: v.$color-gray;
+                font-size: 0.7em;
+                i{
+                    margin-left: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+        
+    }
+    &__dropdown{
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-start;
+        .dropdown{
+            width: 80px;          
+            border-radius: 3px;
+            padding: 10px 15px 10px 15px;
+            color: v.$color-gray;
+            font-size: 0.7em;
+            margin-right: 10px;
+            &--ingredients{
+                background: v.$color-blue;
+            } 
+            &--appareils{
+                background: v.$color-green;
+            } 
+            &--ustensiles{
+                background: v.$color-maron;
+            }
+        }
+    }
+}
